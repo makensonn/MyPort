@@ -1,0 +1,262 @@
+import { r as motion } from "../_libs/framer-motion.mjs";
+import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.mjs";
+import { t as Button } from "./button-6tD3yg_e.mjs";
+import { S as ArrowLeft, c as Mail, d as Globe, f as Github, h as Download, l as Linkedin, s as MapPin } from "../_libs/lucide-react.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/resume-BU0qmppA.js
+var import_jsx_runtime = require_jsx_runtime();
+var skills = [
+	"Next.js",
+	"React",
+	"TypeScript",
+	"JavaScript",
+	"Tailwind CSS",
+	"HTML/CSS",
+	"Node.js",
+	"REST APIs",
+	"Webhooks",
+	"PostgreSQL",
+	"SQL",
+	"Python",
+	"MediaPipe",
+	"TensorFlow",
+	"Git",
+	"GitHub",
+	"Vercel",
+	"Docker",
+	"Zapier",
+	"OpenAI API"
+];
+var experience = [{
+	title: "Software Developer",
+	company: "The Driscoll Firm, PC",
+	location: "Durham, North Carolina",
+	period: "Current",
+	bullets: [
+		"Built automation systems, integrations, dashboards, and AI-assisted internal tools across legal intake and operations.",
+		"Developed legal intake automation across CRM and case management systems.",
+		"Built internal dashboards with reporting and PDF export capabilities.",
+		"Implemented webhook and REST API integrations with third-party services.",
+		"Created AI-powered onboarding and knowledge-base tooling."
+	]
+}];
+var projects = [
+	{
+		name: "BridgeOps",
+		tech: "Next.js, TypeScript, Tailwind, Postgres, APIs",
+		description: "A modern legal operations command center — unifying intake, leads, cases, phone activity, workflows, and analytics into one clean dashboard."
+	},
+	{
+		name: "FlowPilot",
+		tech: "Next.js, OpenAI, Zapier API, Postgres",
+		description: "AI-driven workflow and automation platform with a visual builder for triggers, enrichment, decisioning, and multi-tool actions."
+	},
+	{
+		name: "ASL Hand Tracker",
+		tech: "Python, MediaPipe, TensorFlow",
+		description: "Real-time American Sign Language recognition using computer vision and on-device ML with 21-point landmark tracking."
+	},
+	{
+		name: "Portfolio OS",
+		tech: "Next.js, MDX, Tailwind, Framer Motion",
+		description: "A fully themeable developer portfolio builder with projects, blog, resume, and contact modules."
+	}
+];
+function ResumePage() {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+		className: "min-h-screen bg-background text-foreground",
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+			className: "container mx-auto px-6 max-w-4xl py-16",
+			children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(motion.div, {
+				initial: {
+					opacity: 0,
+					y: 20
+				},
+				animate: {
+					opacity: 1,
+					y: 0
+				},
+				transition: { duration: .6 },
+				className: "space-y-10",
+				children: [
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "flex flex-wrap items-start justify-between gap-6 border-b border-white/10 pb-8",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "space-y-2",
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
+									className: "text-4xl md:text-5xl font-bold tracking-tight",
+									children: "Makenson Noel"
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+									className: "text-lg text-muted-foreground",
+									children: "Software Developer & AI Builder"
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+									className: "flex flex-wrap items-center gap-4 text-sm text-muted-foreground pt-1",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+										className: "inline-flex items-center gap-1",
+										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(MapPin, { className: "w-3.5 h-3.5" }), " Durham, North Carolina"]
+									}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+										href: "mailto:maknoel.dev@gmail.com",
+										className: "inline-flex items-center gap-1 hover:text-accent transition",
+										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Mail, { className: "w-3.5 h-3.5" }), " maknoel.dev@gmail.com"]
+									})]
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+									className: "flex flex-wrap items-center gap-4 text-sm pt-1",
+									children: [
+										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+											href: "https://github.com/makensonn",
+											target: "_blank",
+											rel: "noreferrer",
+											className: "inline-flex items-center gap-1 text-muted-foreground hover:text-accent transition",
+											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Github, { className: "w-3.5 h-3.5" }), " github.com/makensonn"]
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+											href: "https://www.linkedin.com/in/makenson-noel/",
+											target: "_blank",
+											rel: "noreferrer",
+											className: "inline-flex items-center gap-1 text-muted-foreground hover:text-accent transition",
+											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Linkedin, { className: "w-3.5 h-3.5" }), " linkedin.com/in/makenson-noel"]
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+											href: "/",
+											className: "inline-flex items-center gap-1 text-muted-foreground hover:text-accent transition",
+											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Globe, { className: "w-3.5 h-3.5" }), " maknoel.dev"]
+										})
+									]
+								})
+							]
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "flex flex-wrap gap-2",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+								asChild: true,
+								variant: "hero",
+								size: "sm",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+									href: "/",
+									className: "inline-flex items-center gap-1",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowLeft, { className: "w-4 h-4" }), " Portfolio"]
+								})
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Button, {
+								variant: "ghost-line",
+								size: "sm",
+								className: "print:hidden",
+								onClick: () => window.print(),
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Download, { className: "w-4 h-4 mr-1" }), " Print / PDF"]
+							})]
+						})]
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+						className: "text-xs font-mono uppercase tracking-[0.25em] text-accent mb-3",
+						children: "Summary"
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+						className: "text-foreground/90 leading-relaxed",
+						children: "Software Developer with 4+ years of experience building modern web applications, automation systems, and AI-driven tools. Specialized in turning complex workflows into clean, scalable software across legal tech, e-commerce, and computer vision domains. Passionate about shipping products that make an impact."
+					})] }),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+						className: "text-xs font-mono uppercase tracking-[0.25em] text-accent mb-4",
+						children: "Experience"
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+						className: "space-y-6",
+						children: experience.map((job) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "space-y-2",
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+									className: "flex flex-wrap items-center justify-between gap-2",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+										className: "text-xl font-bold",
+										children: job.title
+									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+										className: "font-mono text-xs text-muted-foreground px-2 py-1 rounded-full border border-white/10",
+										children: job.period
+									})]
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
+									className: "text-sm text-primary font-medium",
+									children: [
+										job.company,
+										" · ",
+										job.location
+									]
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", {
+									className: "space-y-1.5 text-sm text-foreground/85 pt-1",
+									children: job.bullets.map((b, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
+										className: "flex gap-2",
+										children: [
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+												className: "text-primary mt-0.5",
+												children: "▸"
+											}),
+											" ",
+											b
+										]
+									}, i))
+								})
+							]
+						}, job.company))
+					})] }),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+						className: "text-xs font-mono uppercase tracking-[0.25em] text-accent mb-4",
+						children: "Featured Projects"
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+						className: "grid sm:grid-cols-2 gap-4",
+						children: projects.map((p) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "glass rounded-xl p-5 space-y-2",
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+									className: "font-bold",
+									children: p.name
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+									className: "text-xs font-mono text-primary",
+									children: p.tech
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+									className: "text-sm text-muted-foreground leading-relaxed",
+									children: p.description
+								})
+							]
+						}, p.name))
+					})] }),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+						className: "text-xs font-mono uppercase tracking-[0.25em] text-accent mb-4",
+						children: "Skills"
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+						className: "flex flex-wrap gap-2",
+						children: skills.map((s) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+							className: "text-xs font-mono px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-muted-foreground",
+							children: s
+						}, s))
+					})] }),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "border-t border-white/10 pt-8",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+							className: "text-xs font-mono uppercase tracking-[0.25em] text-accent mb-3",
+							children: "Education"
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "text-foreground/90 font-semibold",
+							children: "B.S. in Computer Science — Florida Atlantic University"
+						})]
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+						className: "text-center text-xs text-muted-foreground pt-8 border-t border-white/10",
+						children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", { children: [
+							"© ",
+							(/* @__PURE__ */ new Date()).getFullYear(),
+							" Makenson Noel · ",
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								href: "/",
+								className: "hover:text-accent transition",
+								children: "maknoel.dev"
+							})
+						] })
+					})
+				]
+			})
+		})
+	});
+}
+//#endregion
+export { ResumePage as component };

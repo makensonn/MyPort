@@ -46,7 +46,7 @@ const projects: Project[] = [
     role: "Full-stack development",
     tech: ["React", "TypeScript", "Node.js", "Maps API"],
     image: gasmeImg,
-    links: { demo: "https://gasme-app.vercel.app/github", github: "https://github.com/makensonn" },
+    links: { demo: "https://gasme-app.vercel.app/", github: "https://github.com/makensonn" },
   },
   {
     title: "ShopWave",

@@ -1,8 +1,8 @@
-import { jsx, jsxs } from "react/jsx-runtime";
-import { motion } from "framer-motion";
-import { ArrowUpRight, ExternalLink, Github } from "lucide-react";
-//#endregion
-//#region src/components/sections/projects.tsx
+import { r as motion } from "../_libs/framer-motion.mjs";
+import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.mjs";
+import { b as ArrowUpRight, f as Github, m as ExternalLink } from "../_libs/lucide-react.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/projects-BWK9YBhA.js
+var import_jsx_runtime = require_jsx_runtime();
 var projects = [
 	{
 		title: "BridgeOps",
@@ -21,7 +21,7 @@ var projects = [
 		image: "/assets/project-bridgeops-CbVmuYDq.webp",
 		links: {
 			demo: "https://bridge-ops.vercel.app/",
-			github: "https://github.com/makensonn"
+			github: "https://github.com/makensonn/BridgeOps"
 		},
 		featured: true
 	},
@@ -39,7 +39,7 @@ var projects = [
 		image: "/assets/project-asl-BqaUhlW-.webp",
 		links: {
 			demo: "https://sign-speak-green.vercel.app/",
-			github: "https://github.com/makensonn"
+			github: "https://github.com/makensonn/SignSpeak"
 		}
 	},
 	{
@@ -54,7 +54,10 @@ var projects = [
 			"Maps API"
 		],
 		image: "/assets/project-gasme-DjtNhL3e.webp",
-		links: { github: "https://github.com/makensonn" }
+		links: {
+			demo: "https://gasme-app.vercel.app/github",
+			github: "https://github.com/makensonn"
+		}
 	},
 	{
 		title: "ShopWave",
@@ -72,7 +75,7 @@ var projects = [
 	}
 ];
 function ProjectCard({ p, i, large = false }) {
-	return /* @__PURE__ */ jsxs(motion.article, {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(motion.article, {
 		initial: {
 			opacity: 0,
 			y: 20
@@ -90,10 +93,10 @@ function ProjectCard({ p, i, large = false }) {
 			duration: .5
 		},
 		className: "group surface-card overflow-hidden hover:-translate-y-1 hover:[border-color:var(--color-border-active)] flex flex-col",
-		children: [/* @__PURE__ */ jsxs("div", {
+		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 			className: `relative overflow-hidden ${large ? "aspect-[16/9]" : "aspect-[16/10]"}`,
 			children: [
-				/* @__PURE__ */ jsx("img", {
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 					src: p.image,
 					alt: `${p.title} project preview`,
 					loading: "lazy",
@@ -101,63 +104,63 @@ function ProjectCard({ p, i, large = false }) {
 					height: 1e3,
 					className: "absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
 				}),
-				/* @__PURE__ */ jsx("div", {
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 					"aria-hidden": true,
 					className: "absolute inset-0",
 					style: { background: "linear-gradient(180deg, transparent 40%, rgba(2,6,23,0.5) 100%)" }
 				}),
-				p.featured && /* @__PURE__ */ jsx("span", {
+				p.featured && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 					className: "absolute top-4 left-4 text-[10px] font-semibold tracking-widest uppercase px-2 py-1 rounded-md bg-accent text-accent-foreground",
 					children: "Featured"
 				}),
-				/* @__PURE__ */ jsx(ArrowUpRight, { className: "absolute top-4 right-4 w-5 h-5 text-white/80 opacity-0 group-hover:opacity-100 transition-opacity" })
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowUpRight, { className: "absolute top-4 right-4 w-5 h-5 text-white/80 opacity-0 group-hover:opacity-100 transition-opacity" })
 			]
-		}), /* @__PURE__ */ jsxs("div", {
+		}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 			className: "p-6 md:p-7 flex flex-col gap-4 flex-1",
 			children: [
-				/* @__PURE__ */ jsxs("div", { children: [/* @__PURE__ */ jsx("h3", {
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
 					className: `font-bold ${large ? "text-2xl md:text-3xl" : "text-xl"} tracking-tight`,
 					children: p.title
-				}), /* @__PURE__ */ jsx("p", {
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 					className: "text-sm text-accent mt-1",
 					children: p.tagline
 				})] }),
-				/* @__PURE__ */ jsx("p", {
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 					className: "text-sm text-muted-foreground leading-relaxed",
 					children: p.description
 				}),
-				/* @__PURE__ */ jsxs("p", {
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
 					className: "text-xs text-muted-foreground",
-					children: [/* @__PURE__ */ jsx("span", {
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 						className: "text-foreground/80 font-medium",
 						children: "Role · "
 					}), p.role]
 				}),
-				/* @__PURE__ */ jsx("div", {
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 					className: "flex flex-wrap gap-1.5",
-					children: p.tech.map((t) => /* @__PURE__ */ jsx("span", {
+					children: p.tech.map((t) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 						className: "text-[11px] px-2.5 py-1 rounded-md bg-surface-elevated border border-border text-muted-foreground",
 						children: t
 					}, t))
 				}),
-				p.links && /* @__PURE__ */ jsxs("div", {
+				p.links && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 					className: "flex items-center gap-3 pt-3 mt-auto border-t border-border",
 					children: [
-						p.links.github && /* @__PURE__ */ jsxs("a", {
+						p.links.github && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
 							href: p.links.github,
 							target: "_blank",
 							rel: "noreferrer",
 							className: "inline-flex items-center gap-1.5 text-xs font-medium text-muted-foreground hover:text-foreground transition",
-							children: [/* @__PURE__ */ jsx(Github, { className: "w-3.5 h-3.5" }), " GitHub"]
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Github, { className: "w-3.5 h-3.5" }), " GitHub"]
 						}),
-						p.links.demo && /* @__PURE__ */ jsxs("a", {
+						p.links.demo && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
 							href: p.links.demo,
 							target: "_blank",
 							rel: "noreferrer",
 							className: "inline-flex items-center gap-1.5 text-xs font-medium text-accent hover:text-accent-soft transition",
-							children: [/* @__PURE__ */ jsx(ExternalLink, { className: "w-3.5 h-3.5" }), " Live Demo"]
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ExternalLink, { className: "w-3.5 h-3.5" }), " Live Demo"]
 						}),
-						p.links.caseStudy && /* @__PURE__ */ jsx("a", {
+						p.links.caseStudy && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
 							href: p.links.caseStudy,
 							className: "inline-flex items-center gap-1.5 text-xs font-medium text-muted-foreground hover:text-foreground transition",
 							children: "Case Study"
@@ -171,32 +174,32 @@ function ProjectCard({ p, i, large = false }) {
 function Projects() {
 	const featured = projects.find((p) => p.featured);
 	const rest = projects.filter((p) => !p.featured);
-	return /* @__PURE__ */ jsx("section", {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
 		id: "projects",
 		className: "relative py-24 md:py-32",
-		children: /* @__PURE__ */ jsxs("div", {
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 			className: "container mx-auto px-6 max-w-[1200px]",
-			children: [/* @__PURE__ */ jsxs("div", {
+			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 				className: "mb-12 md:mb-14 max-w-2xl",
-				children: [/* @__PURE__ */ jsx("p", {
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 					className: "text-xs font-medium tracking-[0.2em] uppercase text-accent",
 					children: "Selected Work"
-				}), /* @__PURE__ */ jsxs("h2", {
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", {
 					className: "text-3xl md:text-5xl font-bold leading-[1.1] mt-3",
-					children: ["Products and systems ", /* @__PURE__ */ jsx("span", {
+					children: ["Products and systems ", /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 						className: "text-gradient-brand",
 						children: "I've built."
 					})]
 				})]
-			}), /* @__PURE__ */ jsxs("div", {
+			}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 				className: "grid gap-6",
-				children: [/* @__PURE__ */ jsx(ProjectCard, {
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ProjectCard, {
 					p: featured,
 					i: 0,
 					large: true
-				}), /* @__PURE__ */ jsx("div", {
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 					className: "grid sm:grid-cols-2 lg:grid-cols-3 gap-6",
-					children: rest.map((p, i) => /* @__PURE__ */ jsx(ProjectCard, {
+					children: rest.map((p, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ProjectCard, {
 						p,
 						i: i + 1
 					}, p.title))
