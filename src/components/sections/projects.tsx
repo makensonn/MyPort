@@ -25,7 +25,7 @@ const projects: Project[] = [
     role: "Full-stack development · Product & UI",
     tech: ["Next.js", "React", "TypeScript", "Node.js", "PostgreSQL", "REST APIs", "Webhooks"],
     image: bridgeOpsImg,
-    links: { demo: "https://bridge-ops.vercel.app/", github: "https://github.com/makensonn" },
+    links: { demo: "https://bridge-ops.vercel.app/", github: "https://github.com/makensonn/BridgeOps" },
     featured: true,
   },
   {
@@ -36,7 +36,7 @@ const projects: Project[] = [
     role: "Full-stack + on-device ML",
     tech: ["React", "TypeScript", "TensorFlow.js", "Node.js"],
     image: aslImg,
-    links: { demo: "https://sign-speak-green.vercel.app/", github: "https://github.com/makensonn" },
+    links: { demo: "https://sign-speak-green.vercel.app/", github: "https://github.com/makensonn/SignSpeak" },
   },
   {
     title: "GasMe",
@@ -46,7 +46,7 @@ const projects: Project[] = [
     role: "Full-stack development",
     tech: ["React", "TypeScript", "Node.js", "Maps API"],
     image: gasmeImg,
-    links: { github: "https://github.com/makensonn" },
+    links: { demo: "https://gasme-app.vercel.app/github", github: "https://github.com/makensonn" },
   },
   {
     title: "ShopWave",
