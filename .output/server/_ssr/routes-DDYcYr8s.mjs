@@ -5,7 +5,7 @@ import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.m
 import { t as Button } from "./button-6tD3yg_e.mjs";
 import { f as Github, h as Download, l as Linkedin, o as Menu, p as FileText, t as X, x as ArrowRight } from "../_libs/lucide-react.mjs";
 import { t as Toaster } from "../_libs/sonner.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-COvxXBZc.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-DDYcYr8s.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var logo_mn_default = "/assets/logo-mn-BCz7ByCq.webp";
@@ -364,7 +364,7 @@ var Toaster$1 = ({ ...props }) => {
 	});
 };
 var About = (0, import_react.lazy)(() => import("./about-GuNNskaC.mjs").then((m) => ({ default: m.About })));
-var Projects = (0, import_react.lazy)(() => import("./projects-BWK9YBhA.mjs").then((m) => ({ default: m.Projects })));
+var Projects = (0, import_react.lazy)(() => import("./projects-BQ2KxZai.mjs").then((m) => ({ default: m.Projects })));
 var AIBuilder = (0, import_react.lazy)(() => import("./ai-builder-DFcitOK6.mjs").then((m) => ({ default: m.AIBuilder })));
 var Skills = (0, import_react.lazy)(() => import("./skills-CNxQgvcL.mjs").then((m) => ({ default: m.Skills })));
 var Experience = (0, import_react.lazy)(() => import("./experience-BR75jMk-.mjs").then((m) => ({ default: m.Experience })));
