@@ -3,7 +3,7 @@ import { n as require_react } from "../_libs/@radix-ui/react-compose-refs+[...].
 import { n as require_jsx_runtime, t as QueryClientProvider } from "../_libs/react+tanstack__react-query.mjs";
 import { c as HeadContent, d as Outlet, f as lazyRouteComponent, g as useRouter, h as Link, m as createRootRouteWithContext, p as createFileRoute, s as Scripts, u as createRouter } from "../_libs/@tanstack/react-router+[...].mjs";
 import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-Dhz3UOp5.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-CdWq81Pi.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var styles_default = "/assets/styles-BbdiMI9E.css";
@@ -193,7 +193,7 @@ var Route$1 = createFileRoute("/resume")({
 	}),
 	component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-var $$splitComponentImporter = () => import("./routes-COvxXBZc.mjs");
+var $$splitComponentImporter = () => import("./routes-DDYcYr8s.mjs");
 var Route = createFileRoute("/")({
 	head: () => ({
 		meta: [

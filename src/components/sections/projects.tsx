@@ -39,6 +39,16 @@ const projects: Project[] = [
     links: { demo: "https://sign-speak-green.vercel.app/", github: "https://github.com/makensonn/SignSpeak" },
   },
   {
+    title: "ShopWave",
+    tagline: "Modern responsive e-commerce experience.",
+    description:
+      "Product discovery, mobile-first shopping, cart, and streamlined checkout flows built for performance and conversion.",
+    role: "Frontend development",
+    tech: ["Next.js", "React", "TypeScript", "Node.js"],
+    image: shopwaveImg,
+    links: { demo: "https://shop-wave-beta.vercel.app/", github: "https://github.com/makensonn/ShopWave" },
+  },
+  {
     title: "GasMe",
     tagline: "Fuel-price & route planning app.",
     description:
@@ -47,16 +57,6 @@ const projects: Project[] = [
     tech: ["React", "TypeScript", "Node.js", "Maps API"],
     image: gasmeImg,
     links: { demo: "https://gasme-app.vercel.app/", github: "https://github.com/makensonn" },
-  },
-  {
-    title: "ShopWave",
-    tagline: "Modern responsive e-commerce experience.",
-    description:
-      "Product discovery, mobile-first shopping, cart, and streamlined checkout flows built for performance and conversion.",
-    role: "Frontend development",
-    tech: ["Next.js", "React", "TypeScript", "Node.js"],
-    image: shopwaveImg,
-    links: { github: "https://github.com/makensonn" },
   },
 ];
 

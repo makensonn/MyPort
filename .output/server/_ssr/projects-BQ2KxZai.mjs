@@ -1,7 +1,7 @@
 import { r as motion } from "../_libs/framer-motion.mjs";
 import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.mjs";
 import { b as ArrowUpRight, f as Github, m as ExternalLink } from "../_libs/lucide-react.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/projects-BWK9YBhA.js
+//#region node_modules/.nitro/vite/services/ssr/assets/projects-BQ2KxZai.js
 var import_jsx_runtime = require_jsx_runtime();
 var projects = [
 	{
@@ -55,7 +55,7 @@ var projects = [
 		],
 		image: "/assets/project-gasme-DjtNhL3e.webp",
 		links: {
-			demo: "https://gasme-app.vercel.app/github",
+			demo: "https://gasme-app.vercel.app/",
 			github: "https://github.com/makensonn"
 		}
 	},
