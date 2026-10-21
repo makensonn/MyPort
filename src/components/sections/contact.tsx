@@ -46,7 +46,7 @@ export function Contact() {
     const subject = encodeURIComponent(`Portfolio inquiry from ${name}`);
     const body = encodeURIComponent(`${message}\n\n— ${name} (${email})`);
     setTimeout(() => {
-      window.location.href = `mailto:maknoel.dev@gmail.com?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:makensoninoel@gmail.com?subject=${subject}&body=${body}`;
       setStatus("success");
       toast.success("Opening your email client…");
     }, 400);
@@ -195,7 +195,7 @@ export function Contact() {
                     {status === "sending" ? "Sending…" : "Send Message"}
                   </Button>
                   <Button asChild variant="outline" size="lg">
-                    <a href="mailto:maknoel.dev@gmail.com">
+                    <a href="mailto:makensoninoel@gmail.com">
                       <Mail className="w-4 h-4" /> Email directly
                     </a>
                   </Button>
@@ -221,7 +221,7 @@ export function Contact() {
                   href="mailto:maknoel.dev@gmail.com"
                   className="text-base font-medium hover:text-accent transition-colors"
                 >
-                  maknoel.dev@gmail.com
+                  makensoninoel@gmail.com
                 </a>
               </div>
               <div className="surface-card p-6">

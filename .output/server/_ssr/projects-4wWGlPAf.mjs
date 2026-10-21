@@ -1,7 +1,7 @@
 import { r as motion } from "../_libs/framer-motion.mjs";
 import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.mjs";
 import { b as ArrowUpRight, f as Github, m as ExternalLink } from "../_libs/lucide-react.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/projects-BQ2KxZai.js
+//#region node_modules/.nitro/vite/services/ssr/assets/projects-4wWGlPAf.js
 var import_jsx_runtime = require_jsx_runtime();
 var projects = [
 	{
@@ -43,6 +43,23 @@ var projects = [
 		}
 	},
 	{
+		title: "ShopWave",
+		tagline: "Modern responsive e-commerce experience.",
+		description: "Product discovery, mobile-first shopping, cart, and streamlined checkout flows built for performance and conversion.",
+		role: "Frontend development",
+		tech: [
+			"Next.js",
+			"React",
+			"TypeScript",
+			"Node.js"
+		],
+		image: "/assets/project-shopwave-QgL7nC8n.webp",
+		links: {
+			demo: "https://shop-wave-beta.vercel.app/",
+			github: "https://github.com/makensonn/ShopWave"
+		}
+	},
+	{
 		title: "GasMe",
 		tagline: "Fuel-price & route planning app.",
 		description: "Helps drivers compare nearby stations, plan optimized routes, and estimate real savings before they leave the driveway.",
@@ -58,20 +75,6 @@ var projects = [
 			demo: "https://gasme-app.vercel.app/",
 			github: "https://github.com/makensonn"
 		}
-	},
-	{
-		title: "ShopWave",
-		tagline: "Modern responsive e-commerce experience.",
-		description: "Product discovery, mobile-first shopping, cart, and streamlined checkout flows built for performance and conversion.",
-		role: "Frontend development",
-		tech: [
-			"Next.js",
-			"React",
-			"TypeScript",
-			"Node.js"
-		],
-		image: "/assets/project-shopwave-QgL7nC8n.webp",
-		links: { github: "https://github.com/makensonn" }
 	}
 ];
 function ProjectCard({ p, i, large = false }) {

@@ -80,12 +80,12 @@ function ResumePage() {
               <p className="text-lg text-muted-foreground">Software Developer & AI Builder</p>
               <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground pt-1">
                 <span className="inline-flex items-center gap-1"><MapPin className="w-3.5 h-3.5" /> Durham, North Carolina</span>
-                <a href="mailto:maknoel.dev@gmail.com" className="inline-flex items-center gap-1 hover:text-accent transition"><Mail className="w-3.5 h-3.5" /> maknoel.dev@gmail.com</a>
+                <a href="mailto:makensoninoel@gmail.com" className="inline-flex items-center gap-1 hover:text-accent transition"><Mail className="w-3.5 h-3.5" /> makensoninoel@gmail.com</a>
               </div>
               <div className="flex flex-wrap items-center gap-4 text-sm pt-1">
                 <a href="https://github.com/makensonn" target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 text-muted-foreground hover:text-accent transition"><Github className="w-3.5 h-3.5" /> github.com/makensonn</a>
                 <a href="https://www.linkedin.com/in/makenson-noel/" target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 text-muted-foreground hover:text-accent transition"><Linkedin className="w-3.5 h-3.5" /> linkedin.com/in/makenson-noel</a>
-                <a href="/" className="inline-flex items-center gap-1 text-muted-foreground hover:text-accent transition"><Globe className="w-3.5 h-3.5" /> maknoel.dev</a>
+                <a href="/" className="inline-flex items-center gap-1 text-muted-foreground hover:text-accent transition"><Globe className="w-3.5 h-3.5" /> makenson.dev</a>
               </div>
             </div>
             <div className="flex flex-wrap gap-2">
@@ -161,7 +161,7 @@ function ResumePage() {
 
           {/* Footer */}
           <div className="text-center text-xs text-muted-foreground pt-8 border-t border-white/10">
-            <p>© {new Date().getFullYear()} Makenson Noel · <a href="/" className="hover:text-accent transition">maknoel.dev</a></p>
+            <p>© {new Date().getFullYear()} Makenson Noel · <a href="/" className="hover:text-accent transition">makenson.dev</a></p>
           </div>
         </motion.div>
       </div>
